@@ -33,7 +33,7 @@ function draw() {
     let minuteBlocks = 60;
     let minuteBlockWidth = (width - 2 * margin) / minuteBlocks;
     for (let i = 0; i < minuteBlocks; i++) {
-        if ((i < min) && (sec % 2 == 0) {
+        if ((i < min) && (sec % 2 == 0)) {
             fill(253,34,49); // filled blocks
         } else {
             fill(30);
