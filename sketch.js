@@ -38,8 +38,11 @@ function draw() {
         } else if (i == min) {
             if (sec % 2 == 0) {
                 fill(253,34,49);
-        else {
-            fill(30);
+            } else {
+              fill(30)
+            }
+        } else {
+          fill(30)
         }
         rect(margin + i * minuteBlockWidth, 260, minuteBlockWidth - 1, 40, 3);
     }
